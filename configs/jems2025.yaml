@@ -1,0 +1,4 @@
+cohorts: [vitals, labs, infusion]
+hidden: 64
+horizon: 24
+epochs: 30

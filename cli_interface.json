@@ -1,0 +1,27 @@
+{
+  "project": "pulse-embed",
+  "manifest_version": "1",
+  "tools": [
+    {
+      "name": "pulse-encode",
+      "description": "Encode an irregular time series into a pulse embedding.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "series_id": {
+            "type": "string",
+            "description": "Identifier of the irregular series."
+          },
+          "horizon": {
+            "type": "integer",
+            "description": "Output horizon in time steps."
+          },
+          "time_unit": {
+            "type": "string",
+            "description": "Unit of the observation timestamps."
+          }
+        }
+      }
+    }
+  ]
+}
